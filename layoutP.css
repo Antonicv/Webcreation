@@ -1,0 +1,176 @@
+
+
+
+.body {
+  /* margin-left: 60px;
+  margin-right: 60px; */
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+ 
+
+}
+.principal {
+  background-color: lightgray;
+  margin: auto;
+  width: 80%;
+
+}
+.figure {
+  background-color: white;
+}
+.columna {
+    float: left;
+    
+
+
+
+}
+.cincuenta {
+width: 50%;
+
+}
+.cien {
+    width: 100%;
+}
+
+.treinta {
+    width: 33.3333%;
+  
+    
+}
+.fila::after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.fila img{
+    width: 80%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.filab img{
+    width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.fila1 {
+  background-color: white;
+}
+
+.treinta h3{
+
+    font-size: 20px;
+   
+    
+    
+}
+.treinta p{
+   
+    padding-right: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  width: 316px;
+
+}
+.treinta a{
+background-color: gray;
+text-decoration: none;
+color: white;
+
+}
+#navegador2 {
+    background-color: rgb(21, 137, 239);
+    color: white;
+    /* width: 70%; */
+    /* width: 1320px; */
+    width: 100%;
+    border-radius: 20px; /* Redondea todas las esquinas con un radio de 20px */
+    
+  } 
+  #navegador2 ul{
+    /* list-style-type: none; */
+    font-size: 20px;
+    
+    
+    
+  }
+  #navegador2 li {
+    list-style: none;
+    display: inline-block;
+    
+   
+  }
+  #navegador2 ul li {
+    float: left;
+    margin: 20px;
+  }
+
+  #navegador2 ul li a {
+
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    
+  }
+  #navegador2 ul li a:hover {
+    text-decoration: underline; /* Subrayat al pasar el cursor per el link */
+}
+  .limpiar {
+    clear: both;
+  }
+
+  .gcse-search {
+    font-size: 13px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 4px;
+  margin-left: 0;
+  width: 150%;
+  /* width: 30%; */
+  float: right;
+  border-color: #000; 
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  /* height: 30px; */
+  /* width: 150%; */
+
+}
+/* .gsc-control-cse {
+
+  border-color: #FFFFFF;
+  background-color: #FFFFFF;
+  width: 150%;
+
+} */
+
+
+
+#search-input {
+    padding: 10px;
+    width: 200%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #00b2bd;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    /* display: flex; */
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #3900b3;
+} 
